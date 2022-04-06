@@ -1,0 +1,440 @@
+/*GERAL*/
+body{
+    font-family: 'Poppins';
+}
+/*HEADER*/
+.header--container{
+    width: 100vw;
+}
+header{
+    margin: auto;
+    width: 375px;
+    height: 140px;
+    padding: 20px 15px;
+}
+.header--image--container{
+
+}
+header nav{
+
+}
+header nav form{
+    background: #F8F9FA;
+    border: 1.65434px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 33.0868px;
+    width: 343px;
+    height: 54px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav form:focus-within{
+    border: 1.5px solid #212529;
+}
+
+header nav form input{
+    box-sizing: border-box;
+    background: #F8F9FA;
+    border: 1.65434px solid #F8F9FA;
+    border-radius: 33.0868px;
+    height: 100%;
+    width: 275px;
+}
+header nav form input:focus{
+    /*  box-shadow: 0 0 0 0; */
+    /* border: 0 none; */
+     outline: 0; 
+}
+header nav form button{
+    background: #FFE9EE;
+    width: 44.12px;
+    height: 44.12px;
+    border: 1.65434px solid #FFE9EE;
+    border-radius: 100%;
+    color: #FF2253;
+}
+header nav form button:hover{
+    cursor: pointer;
+    color: #FFE9EE;
+    background: #FF2253;
+}
+/*MAIN*/
+
+/*VITRINE*/
+.vitrine{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 12px;
+}
+
+.vitrine--produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: overlay;
+    min-height: 420px;
+}
+
+.vitrine--produtos::-webkit-scrollbar{
+    display: none;
+}
+
+.vitrine--produtos li figure img{
+    width: 300px;
+    height: 200px;
+    border: 3px solid #FFE9EE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.vitrine--produtos li figure img:hover{
+    border: 3px solid #FF2253;
+}
+
+.vitrine--produtos li{
+    width: 300px;
+    height: 369px;
+    margin: 12px;
+}
+
+.vitrine--produtos li h1{
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 40px;
+    text-align: left;
+
+}
+
+.vitrine--produtos li p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+.vitrine--produtos li span{
+    display: flex;
+    align-items: center;
+    color: #212529;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+
+}
+
+.vitrine--produtos li figure figcaption{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 18px 6px 18px;
+    background: #FFE9EE;
+    border-radius: 30px;
+    width: fit-content;
+    position: relative;
+    left: 12%;
+    margin: -22px;
+
+}
+
+.vitrine--produtos li figure figcaption img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px 0px -5px;
+}
+
+.vitrine--produtos li section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.vitrine--produtos li section button{
+    color: #4ACA94;
+    background: #E4F7EF;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-style: hidden;
+}
+.vitrine--produtos li section button:hover{
+    cursor: pointer;
+    color: #E4F7EF;
+    background: #4ACA94;
+}
+.vitrine--categorias{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.vitrine--categorias button{
+    margin: 10px;
+}
+
+.btn--todos{
+    background: #F8F9FA;
+    border: 1.5px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 72px;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+}
+
+.btn--todos:hover{
+    cursor: pointer;
+    border: 1.5px solid #212529;
+}
+.btn--todos:focus{
+    border: 1.5px solid #212529;
+}
+
+.btn--panificadora{
+    background: #FFF7F4;
+    border: 1.5px solid #FFF7F4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url("../../public/images/pao.png");
+    background-repeat: no-repeat;
+    background-position: 12px;
+    padding: 0px 12px 0px 50px;
+}
+
+.btn--panificadora:hover{
+    cursor: pointer;
+    border: 1.5px solid #212529;
+}
+.btn--panificadora:focus{
+    border: 1.5px solid #212529;
+}
+
+.btn--frutas{
+    background: #FFE4EA;
+    border: 1.5px solid #FFE4EA;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url("../../public/images/fruta.png");
+    background-repeat: no-repeat;
+    background-position: 12px;
+    padding: 0px 12px 0px 50px;
+}
+
+.btn--frutas:hover{
+    cursor: pointer;
+    border: 1.5px solid #212529;
+}
+.btn--frutas:focus{
+    border: 1.5px solid #212529;
+}
+
+.btn--bebidas{
+    background: #F3EEF5;
+    border: 1.5px solid #F3EEF5;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: url("../../public/images/bebida.png");
+    background-repeat: no-repeat;
+    background-position: 12px;
+    padding: 0px 12px 0px 50px;
+}
+
+.btn--bebidas:hover{
+    cursor: pointer;
+    border: 1.5px solid #212529;
+}
+.btn--bebidas:focus{
+    border: 1.5px solid #212529;
+}
+/*CARRINHO*/
+.carrinho{
+    margin: 40px auto;
+    width: 342px;
+    height: 500px;
+}
+.carrinho--header{
+    display: flex;
+    height: 59.85px;
+    background: #FF2253;
+    border-radius: 14.9625px 14.9625px 0px 0px;
+    align-items: center;
+}
+.carrinho--header figure{
+    display: flex;
+    margin: 0px 15px;
+}
+.carrinho--header figure img{
+    height: 15px;
+}
+.carrinho--header h1{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.carrinho--produtos{
+}
+.carrinho--produtos--container{
+    display: flex;
+    height: 315.12px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 24px 10px;
+    background-color: #FFFFFF;
+    overflow: overlay;
+}
+.carrinho--produtos--container::-webkit-scrollbar{
+    display: none;
+}
+.carrinho--produtos--vazio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+    font-weight: 400;
+    font-size: 12.82px;
+    line-height: 17px;
+    text-align: center;
+    height: 432.85px;
+}
+.carrinho--produtos--vazio img{
+    width: 42.5px;
+    height: 47.2px;
+}
+.carrinho--produtos--vazio span{
+    max-width: 200px;
+    margin-top: 20px;
+}
+.emptyMsgTitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17.1px;
+    font-weight: bold;
+    color: #868E96;
+}
+.emptyMsg{
+    color: #868E96;
+    line-height: 16px;
+}
+.carrinho--produtos--container li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+.carrinho--produtos--container li figure{
+    width: 75.47px;
+    height: 75.47px;
+}
+.carrinho--produtos--container li figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.info--product{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.info--product h1{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 189.75px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.info--product p{
+    font-size: 10px;
+    color: #868E96;
+}
+.info--product span{
+    font-size: 12px;
+    color: #212529;
+}
+.carrinho--produtos--container li button{
+    width: 26.95px;
+    height: 26.95px;
+    background: #F8F9FA;
+    border: 2px;
+    border-radius: 4.3125px;
+}
+.carrinho--produtos--container li button:hover{
+    cursor: pointer;
+    border: 2px solid #868E96;
+}
+.carrinho--quantidade{
+    font-weight: bold;
+    font-size: 12.9375px;
+    width: 100%;
+    height: 62.53px;
+    background: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.carrinho--total{
+    font-weight: bold;
+    font-size: 12.9375px;
+    width: 100%;
+    height: 62.53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
+
+@media  screen and (min-width: 800px) {
+    header{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+    .main--container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .vitrine{
+        margin-left: 22px;
+    }
+
+    .vitrine--produtos{
+        max-width: 1050px;
+        width: 60vw;
+        flex-wrap: wrap;
+    }
+
+    .vitrine--produtos li{
+        margin: 22px 0;
+    }
+    .carrinho {
+        margin: 40px 35px;
+    }    
+}

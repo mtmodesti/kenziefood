@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/68629180f5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>KenzieFood</title>
+</head>
+<body>
+    <section class="header--container">
+        <header>
+            <figure class="header--image--container">
+                <img src="./public/images/kenzie-food.png" alt="KenzieFood logo">
+            </figure>
+            <nav>
+                <form action="">
+                    <input id ="pesquisa-produto" type="text" name="pesquisa-produto" placeholder="Pesquisar por produto">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </nav>
+        </header>
+    </section>
+    
+    <main class="main--container">
+        <section class="vitrine">
+            <div class="vitrine--categorias">
+                <button class="btn--todos">Todos</button>
+                <button class="btn--panificadora">Panificadora</button>
+                <button class="btn--frutas">Frutas</button>
+                <button class="btn--bebidas">Bebidas</button>
+            </div>
+            <ul id='vitrine--produtos' class="vitrine--produtos">
+            </ul>
+        </section>
+        <section class="carrinho" id="carrinho">
+        </section>
+    </main>
+    <script type="module" src="./assets/scripts/script.js"></script>
+    
+</html>
