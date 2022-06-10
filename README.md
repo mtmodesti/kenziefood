@@ -1,8 +1,12 @@
 
+https://mtmodesti.github.io/kenziefood/
 
-# API-KenzieFood
 
-Nesse trabalho vocês terão que consumir uma API de produtos.
+# E-commerce 
+
+In this project, I consumed an API and designed an e-commerce with just JS and CSS, also simulating a shopping cart. Below is some information about the projects.
+
+
 
 ## Rotas
 
